@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <style>
+        body{
+            background-color: #1e4d91;
+        }
+        .detail-box {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            border: 3px  white;
+            border-radius: 25px;
+            background-color: white;
+            width: 400px;
+            height: 450px;
+            margin-left: -200px;
+            margin-top: -225px;
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+
+    
+</head>
+<body>
+    <div class = "detail-box">
+        <p style="text-align: center; margin-top: 50px; font-size: larger; "> Create Account</p>
+        <form action="/action_page.php" style="align-items: center;">
+            <section>
+                <div style="float:left;margin-right:20px;">
+                    <label for="name">Name</label>
+                    <input id="name" type="text" value="" name="name">
+                  </div>
+                <div style="float:left;margin-right:20px;">
+                    <label for="email">Email</label>
+                    <input id="email" type="email" value="" name="email">
+                  </div>
+                  <div style="float:left;margin-right:20px;">
+                    <label for="password">Password</label>
+                    <input id="password" type="password" value="" name="password">
+                  </div>
+            </section>
+        </form>
+    </div>
+</body>
+</html>
